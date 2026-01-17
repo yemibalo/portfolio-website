@@ -1,20 +1,26 @@
-# Portfolio Website
+# AWS Static Website Hosting Project
 
-This is my personal portfolio website, built using HTML and CSS, and hosted on AWS S3. It showcases my skills, projects, and contact information. This project demonstrates my ability to deploy a static website to the cloud and manage public access permissions.
+This project demonstrates how to host a static website using **Amazon S3** and deliver it securely using **Amazon CloudFront**.
 
-## Live Website
-[View Live Website](http://asiat-portfolio-2026.s3-website-us-east-1.amazonaws.com/)
+## 🔹 Project Overview
+The website was initially hosted directly on S3. After encountering browser compatibility and access issues, CloudFront was integrated to improve availability, security, and performance.
 
-## Features
-- Fully responsive static website
-- Hosted on AWS S3 with public access
-- Includes images, CSS styling, and proper folder structure
-- Demonstrates basic cloud deployment skills
+## 🔹 Architecture
+- Amazon S3 – Static website hosting
+- Amazon CloudFront – Content Delivery Network (CDN)
+- IAM Bucket Policy – Controlled public access
 
-## Skills & Technologies
-- HTML, CSS
-- AWS S3 (Static Website Hosting)
-- Cloud storage & public permissions
-- Git/GitHub version control
+## 🔹 Challenges & Solutions
+- **Issue:** Website accessible on Safari but not Chrome  
+- **Solution:** Implemented CloudFront and updated S3 bucket policy  
+- **Result:** Website now loads consistently across all major browsers and devices
+
+## 🔹 Live Demo
+👉 **CloudFront URL:** https://d17cyvygxo7nxg.cloudfront.net/
+
+## 🔹 Technologies Used
+- AWS S3  
+- AWS CloudFront  
+- HTML / CSS
 
 
